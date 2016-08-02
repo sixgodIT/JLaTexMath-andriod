@@ -144,12 +144,12 @@ public class TeXFormula {
 			DefaultTeXFont
 					.registerAlphabet((AlphabetRegistration) Class
 							.forName(
-									"org.scilab.forge.org.scilab.forge.jlatexmath.cyrillic.CyrillicRegistration")
+									"org.scilab.forge.jlatexmath.cyrillic.CyrillicRegistration")
 							.newInstance());
 			DefaultTeXFont
 					.registerAlphabet((AlphabetRegistration) Class
 							.forName(
-									"org.scilab.forge.org.scilab.forge.jlatexmath.greek.GreekRegistration")
+									"org.scilab.forge.jlatexmath.greek.GreekRegistration")
 							.newInstance());
 		} catch (Exception e) {
 			e.printStackTrace();

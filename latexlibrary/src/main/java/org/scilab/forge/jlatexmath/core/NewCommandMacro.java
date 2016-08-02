@@ -46,7 +46,7 @@ public class NewCommandMacro {
 		// " already exists ! Use renewcommand instead ...");
 		macrocode.put(name, code);
 		MacroInfo.Commands.put(name, new MacroInfo(
-				"org.scilab.forge.org.scilab.forge.jlatexmath.core.NewCommandMacro", "executeMacro",
+				"org.scilab.forge.jlatexmath.core.NewCommandMacro", "executeMacro",
 				nbargs));
 	}
 
@@ -58,7 +58,7 @@ public class NewCommandMacro {
 		macrocode.put(name, code);
 		macroreplacement.put(name, def);
 		MacroInfo.Commands.put(name, new MacroInfo(
-				"org.scilab.forge.org.scilab.forge.jlatexmath.core.NewCommandMacro", "executeMacro",
+				"org.scilab.forge.jlatexmath.core.NewCommandMacro", "executeMacro",
 				nbargs, 1));
 	}
 
@@ -72,7 +72,7 @@ public class NewCommandMacro {
 					+ " is not defined ! Use newcommand instead ...");
 		macrocode.put(name, code);
 		MacroInfo.Commands.put(name, new MacroInfo(
-				"org.scilab.forge.org.scilab.forge.jlatexmath.core.NewCommandMacro", "executeMacro",
+				"org.scilab.forge.jlatexmath.core.NewCommandMacro", "executeMacro",
 				nbargs));
 	}
 

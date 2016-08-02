@@ -58,7 +58,7 @@ public class URLAlphabetRegistration implements AlphabetRegistration {
 	public Object getPackage() throws AlphabetRegistrationException {
 		URL urls[] = { url };
 		language = language.toLowerCase();
-		String name = "org.scilab.forge.org.scilab.forge.jlatexmath.core." + language + "."
+		String name = "org.scilab.forge.jlatexmath.core." + language + "."
 				+ Character.toString(Character.toUpperCase(language.charAt(0)))
 				+ language.substring(1, language.length()) + "Registration";
 
